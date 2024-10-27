@@ -7,6 +7,6 @@ int main()
 
     int num = (rand() % 6) + 1;
 
-    std::cout<< num;lkl
+    std::cout<< num;
     return 0;
 }
