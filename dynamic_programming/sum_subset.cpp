@@ -4,9 +4,7 @@
 
 
 
-bool sum_subset_mem(int arr[],int n ,int target_sum){
-    
-}
+bool sum_subset_mem(int arr[],int n ,int target_sum){}
 
 bool sum_subset_recursive(int arr[], int n, int target_sum)
 {
