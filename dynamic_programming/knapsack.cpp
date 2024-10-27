@@ -35,13 +35,15 @@ int knapsack_top_down(int weight[], int values[], int knapsack_weight, int n)
             if (weight[i - 1] <= j)
             {
                 table[i][j] = max(weight[n - 1] + table[i - 1][j - weight[i - 1]], table[i - 1][j]);
-            }else{
-                table[i][j] = table[i+1][j];
+            }
+            else
+            {
+                table[i][j] = table[i + 1][j];
             }
         }
     }
 
-    return table[n+1][knapsack_weight+1];
+    return table[n + 1][knapsack_weight + 1];
 }
 
 int knapsack_mem(int weight[], int values[], int knapsack_weight, int n)
