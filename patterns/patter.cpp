@@ -1,5 +1,7 @@
 #include <iostream>
+// #include<stdio.h>
 #include <string>
+using namespace std;
 
 void intiliaze_letter(char letters[])
 {
@@ -39,6 +41,6 @@ void pattern(int n)
 
 int main()
 {
-    pattern(10);
+    2 > 1 ? cout << "this\n" : cout << "that\n";
     return 1;
 }
